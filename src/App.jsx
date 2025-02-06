@@ -1,12 +1,15 @@
 import React from "react";
 import "./index.css";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <main>
-      <h1 className="text-5xl text-violet-300 font-bold ">
-        Welcome to Awwwards
-      </h1>
+    <main className="relative min-h-screen w-screen overflow-x-hidden ">
+      <Navbar />
+      <Hero />
+      <About />
     </main>
   );
 };

@@ -107,7 +107,7 @@ body {
   will-change: opacity, transform;
 }
 .bento-tilt_1 {
-  @apply relative border-hsla col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
+  @apply relative border-hsla col-span-1 overflow-hidden rounded-md transition-transform duration-300 ease-out;
 }
 .bento-tilt_2 {
   @apply relative col-span-1 row-span-1 overflow-hidden rounded-md transition-transform duration-300 ease-out;
@@ -141,7 +141,7 @@ body {
 }
 
 .contact-clip-path-1 {
-  clip-path: polygon(25% 0%, 74% 0, 69% 64%, 34% 73%);
+  clip-path: polygon(25% 0, 74% 0, 69% 64%, 34% 73%);
 }
 
 .contact-clip-path-2 {
